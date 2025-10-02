@@ -219,7 +219,7 @@ const Header: React.FC = () => {
               className="hover:opacity-80 transition-opacity"
               aria-label="Home"
             >
-              <Home className="size-6" />
+              <Home size={24} />
             </Link>
 
             {/* Hamburger Menu */}
@@ -234,9 +234,9 @@ const Header: React.FC = () => {
                 transition={{ duration: 0.2 }}
               >
                 {isMenuOpen ? (
-                  <X className="size-6" />
+                  <X size={24} />
                 ) : (
-                  <Menu className="size-6" />
+                  <Menu size={24} />
                 )}
               </motion.div>
             </motion.button>
