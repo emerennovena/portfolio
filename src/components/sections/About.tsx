@@ -1,7 +1,6 @@
 import React from "react";
 import { FadeIn } from "../ui";
 import Image from "next/image";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const GalleryImage: React.FC<{
@@ -69,14 +68,6 @@ const About: React.FC = () => {
             {/* [Describe the results you deliver for clients or the impact of your
             work.] */}
           </p>{" "}
-          {/* <br />
-          <Link
-            href="https://yourblog.com/"
-            target="_blank"
-            className="text-[#9D8BF5] underline hover:text-[#8e7ddf] font-medium hover:underline transition-colors"
-          >
-            [Optional: Add link to your blog, articles, or additional content]
-          </Link>{" "} */}
           <p className="font-medium">
             {/* [End with a strong statement about your work or value proposition.] */}
           </p>
