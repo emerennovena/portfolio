@@ -7,7 +7,6 @@ import {
   Footer,
   Contact,
   Projects,
-  Newsletter,
 } from "../components/sections";
 import { Container } from "@/components/ui";
 

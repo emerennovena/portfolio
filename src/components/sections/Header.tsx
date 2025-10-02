@@ -4,13 +4,10 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import {
   Home,
-  Instagram,
   Linkedin,
   Github,
-  Music2,
   Menu,
   X,
-  ScrollText,
 } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import Cal from "./Cal";
