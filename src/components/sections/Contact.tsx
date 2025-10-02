@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
       <FadeIn delay={0.4}>
         <div className="flex md:flex-row flex-col  justify-center md:justify-start   items-center gap-4">
           <Link
-            href="mailto:your.emerennovena@gmail.com"
+            href="mailto:emerennovena@gmail.com"
             target="_blank"
             className="w-full md:w-auto"
           >
