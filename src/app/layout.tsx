@@ -19,13 +19,17 @@ export const metadata: Metadata = {
     template: "%s | Emerentia Novena",
   },
   description:
-    "MSc Software Development graduate with a background in foreign languages. Bridging the gap between technology and communication.",
+    "MSc Software Development graduate.",
   keywords: [
     "Emerentia Novena",
     "Software Development",
     "foreign languages",
     "technology",
     "developer",
+    "frontend developer",
+    "frontend development",
+    "web development",
+    "language learning",
   ],
   authors: [{ name: "Emerentia Novena", url: "https://emerentianovena.vercel.app" }],
   creator: "Emerentia Novena",
@@ -47,7 +51,7 @@ export const metadata: Metadata = {
     url: "https://emerentianovena.vercel.app",
     title: "Emerentia Novena",
     description:
-      "MSc Software Development graduate with a background in foreign languages.",
+      "MSc Software Development graduate.",
     siteName: "Emerentia Novena",
     images: [
       {
@@ -61,7 +65,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Emerentia Novena",
-    description: "MSc Software Development graduate with a background in foreign languages.",
+    description: "MSc Software Development graduate.",
     creator: "@emerentianovena",
     images: ["/avatar.jpg"],
   },

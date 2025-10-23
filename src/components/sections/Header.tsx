@@ -120,11 +120,11 @@ const dropdownVariants = {
     y: 0,
     scale: 1,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 300,
       damping: 30,
       staggerChildren: 0.05,
-    },
+    } as const,
   },
   exit: {
     opacity: 0,
@@ -132,10 +132,10 @@ const dropdownVariants = {
     scale: 0.98,
     transition: {
       duration: 0.15,
-      ease: "easeIn",
-    },
+      ease: [0.42, 0, 1, 1],
+    } as const,
   },
-};
+} as const;
 
 const itemVariants = {
   hidden: { opacity: 0, x: -20 },
@@ -143,18 +143,18 @@ const itemVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 300,
       damping: 30,
-    },
+    } as const,
   },
-};
+} as const;
 
 const backdropVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
   exit: { opacity: 0 },
-};
+} as const;
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

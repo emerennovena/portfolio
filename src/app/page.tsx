@@ -3,7 +3,6 @@ import {
   Header,
   Hero,
   About,
-  WorkExperience,
   Footer,
   Contact,
   Projects,
@@ -25,8 +24,8 @@ export default function Home() {
         <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
         {/* <Newsletter />
         <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" /> */}
-        <WorkExperience />
-        <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
+        {/* <WorkExperience />
+        <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" /> */}
         <Projects />
         <hr className="w-full h-px max-md:max-w-[150px] mx-auto bg-zinc-200" />
         <Contact />

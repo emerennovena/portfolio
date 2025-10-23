@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
             
           </h1>
           <p className="text-zinc-600 text-base md:text-lg font-normal leading-relaxed">
-            Software Developer
+            Frontend Developer
           </p>
         </FadeIn>
 

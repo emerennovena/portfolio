@@ -51,10 +51,10 @@ const About: React.FC = () => {
             {/* [Describe your main skills and expertise. What problems do you solve
             for your clients? What makes you different from others in your
             field?] */}
-            I have graduated with an MSc in Software Development in September 2025. 
-            I am proficient in Java and Python for back-end development and familiar
-            with Agile working environments. I am committed to leveraging my skills 
-            to drive technological advancements and deliver impactful solutions.
+            I graduated with an MSc in Software Development in September 2025. 
+            My main tech stack includes React, TypeScript, JavaScript, and Django. 
+            I am committed to leveraging my skills to drive technological advancements
+            and deliver impactful solutions.
           </p>
           {/* <p>
             [Add another paragraph about your approach, methodology, or
@@ -78,11 +78,11 @@ const About: React.FC = () => {
       <div className="relative mt-20 min-h-[400px]">
         <FadeIn delay={0.8}>
           <GalleryImage
-            src="/image2.jpg"
+            src="/photos.png"
             rotation="origin-top-left rotate-[-8deg]"
             position="left-[2%] top-[150px] md:left-[14%] md:top-[130px] lg:left-[10%] lg:top-[90px]"
             className="shadow-xl"
-            text="Glencoe, Scotland"
+            text="Main Gate, UofG"
           />
         </FadeIn>
         <FadeIn delay={0.3}>
