@@ -52,9 +52,7 @@ const About: React.FC = () => {
             for your clients? What makes you different from others in your
             field?] */}
             I graduated with an MSc in Software Development in September 2025. 
-            My main tech stack includes React, TypeScript, JavaScript, and Django. 
-            I am committed to leveraging my skills to drive technological advancements
-            and deliver impactful solutions.
+            My main tech stack includes React, TypeScript, JavaScript, and Django.
           </p>
           {/* <p>
             [Add another paragraph about your approach, methodology, or
