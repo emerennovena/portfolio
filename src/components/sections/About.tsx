@@ -51,9 +51,9 @@ const About: React.FC = () => {
             {/* [Describe your main skills and expertise. What problems do you solve
             for your clients? What makes you different from others in your
             field?] */}
-            Hi! I'm Emerentia, a UX designer and web developer. I
+            Hi! I&apos;m Emerentia, a UX designer and web developer. I
             create website wireframes and do frontend development.
-            I graduated with a Master's degree in Software Development in 2025.
+            I graduated with a Master&apos;s degree in Software Development in 2025.
           </p>
           {/* <p>
             [Add another paragraph about your approach, methodology, or

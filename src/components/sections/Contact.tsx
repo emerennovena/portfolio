@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Button, FadeIn } from "../ui";
-import Cal from "./Cal";
+// import Cal from "./Cal";
 import Link from "next/link";
 
 const Contact: React.FC = () => {

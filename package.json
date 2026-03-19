@@ -19,8 +19,7 @@
     "react-dom": "18.2.0",
     "react-rough-notation": "^1.0.5",
     "rough-notation": "^0.5.1",
-    "tailwind-merge": "^3.3.0",
-    "vercel": "^48.6.0"
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
